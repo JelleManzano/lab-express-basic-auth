@@ -1,0 +1,22 @@
+<div>
+    <h3>Sign up form</h3>
+
+    <form action="/auth/signup" method="post">
+    
+    <label for="username">Username:</label>
+    <input type="text" name="username" autocomplete="off">
+    <br>
+    <label for="email">E-mail:</label>
+    <input type="text" name="email"  autocomplete="off">
+    <br>
+    <label for="password1">Password:</label>
+    <input type="password" name="password1"  autocomplete="off">
+    <br>
+    <label for="password2">Re-enter password</label>
+    <input type="password" name="password2" >
+
+    <p style="color: red">{{errorMessage}}</p> 
+
+    <button>Register</button>
+    </form>
+</div>
